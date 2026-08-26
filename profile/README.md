@@ -1,45 +1,50 @@
-# UNSAReport Organization
+# UNSAReport
 
-GitHub organization configuration for [UNSAReport](https://github.com/UNSAReport).
+Suite de herramientas para la automatización y gestión de informes y diapositivas en la carrera de Ingenieria de Sistemas de la Universidad Nacional de San Agustin (UNSA).
 
-## Repositories
+---
 
-| Repository | Description |
-|------------|-------------|
-| [UNSAReport/UNSAReport](https://github.com/UNSAReport/UNSAReport) | CLI tool for managing lab reports |
-| [UNSAReport/templates](https://github.com/UNSAReport/templates) | Typst templates for lab reports |
-| [UNSAReport/skills](https://github.com/UNSAReport/skills) | Agent skills for the CLI tool |
+## Estado del desarrollo
 
-## About
+Puede consultar el progreso actual y el roadmap de desarrollo en el [tablero del proyecto](https://github.com/orgs/UNSAReport/projects/1/views/1).
+No garantizamos que toda la información esté actualizada o sea completa, pero se hace un esfuerzo por mantenerla al día.
 
-UNSAReport is a set of tools for automating reports for the UNSA (Universidad Nacional de San Agustin) Software Engineering career (might look into others depending on success).
+---
 
-### Components
+## Repositorios
 
-- **CLI Tool** (`unsarep`): Command-line interface for scaffolding, updating, and compiling lab reports
-- **Templates**: Typst-based templates for single and multi-lab report structures
-- **Skills**: Agent skills compatible with the [vercel-labs/skills](https://github.com/vercel-labs/skills) ecosystem
+### En desarrollo activo
 
-### Quick Start
+| Repositorio | Descripción |
+|-------------|-------------|
+| [**tui**](https://github.com/UNSAReport/tui) | CLI y TUI centralizada para gestionar todo el ecosistema UNSAReport. Será el reemplazo definitivo de UNSAReport. |
+| [**registry**](https://github.com/UNSAReport/registry) | Registro estilo npm para componentes y plantillas de Typst y Reveal.js. |
+| [**auth**](https://github.com/UNSAReport/auth) | Servicio de autenticación centralizada para toda la suite. |
+| [**UNSASlides**](https://github.com/UNSAReport/UNSASlides) | Plataforma cloud para hospedaje de presentaciones, con organización de trabajo en equipo por espacios de trabajo. |
+| [**skills**](https://github.com/UNSAReport/skills) | Skills para agentes de IA, compatibles con OpenCode, Claude Code, Cursor y otros. |
 
-```bash
-# Install the CLI
-go install github.com/UNSAReport/UNSAReport/cmd/unsarep@latest
+### Repositorios deprecados
 
-# Install a template
-unsarep install lab
+| Repositorio | Descripcion |
+|-------------|-------------|
+| [**UNSAReport**](https://github.com/UNSAReport/UNSAReport) | CLI anterior (Go) para gestionar plantillas Typst, compilar informes, capturar terminal y preparar entregas. |
+| [**templates**](https://github.com/UNSAReport/templates) | Implementación anterior del registro, con plantillas Typst para informes de laboratorio. |
+| [**components**](https://github.com/UNSAReport/components) | Implementación anterior del registro, con componentes Typst reutilizables. |
 
-# Edit your report
-$EDITOR report.typ
+### Organizaciónn
 
-# Prepare submission
-unsarep prepare
-```
+| Repositorio | Descripcion |
+|-------------|-------------|
+| [**.github**](https://github.com/UNSAReport/.github) | Configuración de la organizacion, perfil y licencias. |
 
-## Contributing
+---
 
-See individual repositories for contribution guidelines.
+## Contribuciones
 
-## License
+Las contribuciones son bienvenidas. Cualquier consulta, sugerencia o reporte de error puede enviarse a la pagina de issues del repositorio correspondiente. Tenga en cuenta que las revisiones pueden tardar algún tiempo.
 
-MIT
+---
+
+## Licencia
+
+Este repositorio esta licenciado bajo la [GNU Affero General Public License v3.0](LICENSE). Cada repositorio individual puede contar con su propia licencia.
