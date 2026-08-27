@@ -21,11 +21,12 @@ No garantizamos que toda la información esté actualizada o sea completa, pero 
 | [**registry**](https://github.com/UNSAReport/registry) | Registro estilo npm para componentes y plantillas de Typst y Reveal.js. |
 | [**auth**](https://github.com/UNSAReport/auth) | Servicio de autenticación centralizada para toda la suite. |
 | [**UNSASlides**](https://github.com/UNSAReport/UNSASlides) | Plataforma cloud para hospedaje de presentaciones, con organización de trabajo en equipo por espacios de trabajo. |
+| [**website**](https://github.com/UNSAReport/website) | Página web centralizada para gestión de todas las aplicaciones de UNSAReport. |
 | [**skills**](https://github.com/UNSAReport/skills) | Skills para agentes de IA, compatibles con OpenCode, Claude Code, Cursor y otros. |
 
 ### Repositorios deprecados
 
-| Repositorio | Descripcion |
+| Repositorio | Descripción |
 |-------------|-------------|
 | [**UNSAReport**](https://github.com/UNSAReport/UNSAReport) | CLI anterior (Go) para gestionar plantillas Typst, compilar informes, capturar terminal y preparar entregas. |
 | [**templates**](https://github.com/UNSAReport/templates) | Implementación anterior del registro, con plantillas Typst para informes de laboratorio. |
