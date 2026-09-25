@@ -23,7 +23,7 @@ Escribe informes académicos elegantes y reproducibles en segundos usando [Typst
 | Repositorio | Descripción |
 |-------------|-------------|
 | [**UNSAReport2**](https://github.com/UNSAReport/UNSAReport2) | **Monorepo principal del ecosistema.** Alberga el código base unificado: el CLI y TUI (`unsarep`), la plataforma web, el servicio de registro de paquetes, autenticación y la plataforma de diapositivas. |
-| [**components**](https://github.com/UNSAReport/components) | **Biblioteca de componentes y plantillas.** Aloja y gestiona los componentes oficiales bajo el scope `@unsareport` (ej. `@unsareport/epis-lab`, temas y utilidades para Typst). |
+| [**packages**](https://github.com/UNSAReport/packages) | **Biblioteca de componentes y plantillas.** Aloja y gestiona los componentes oficiales bajo el scope `@unsareport` (ej. `@unsareport/epis-lab`, temas y utilidades para Typst). |
 | [**skills**](https://github.com/UNSAReport/skills) | **Skills para agentes de IA.** Habilidades e instrucciones para agentes de desarrollo compatibles con Claude Code, Cursor, OpenCode, Codex y más de 67 herramientas. |
 | [**.github**](https://github.com/UNSAReport/.github) | **Configuración organizacional.** Perfil institucional de la organización en GitHub, plantillas compartidas y directrices globales. |
 
